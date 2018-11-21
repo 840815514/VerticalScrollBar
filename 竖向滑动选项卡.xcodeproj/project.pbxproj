@@ -15,6 +15,12 @@
 		2762F12C21903EBE002AE6A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F12B21903EBE002AE6A6 /* main.m */; };
 		2762F13621903EBF002AE6A6 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F13521903EBF002AE6A6 /* _______Tests.m */; };
 		2762F14121903EBF002AE6A6 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F14021903EBF002AE6A6 /* _______UITests.m */; };
+		2762F15321903EF3002AE6A6 /* YScrollContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F15021903EF3002AE6A6 /* YScrollContentView.m */; };
+		2762F15421903EF3002AE6A6 /* YSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F15221903EF3002AE6A6 /* YSegmentTitleView.m */; };
+		2762F15E219042F8002AE6A6 /* YVerticalTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F15D219042F8002AE6A6 /* YVerticalTitleView.m */; };
+		2762F161219051CE002AE6A6 /* YVerticalContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F160219051CE002AE6A6 /* YVerticalContentView.m */; };
+		2762F164219057BA002AE6A6 /* YWebClassityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2762F163219057BA002AE6A6 /* YWebClassityViewController.m */; };
+		27645404219137D600758BEA /* YWebClassityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27645403219137D600758BEA /* YWebClassityTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,19 @@
 		2762F13C21903EBF002AE6A6 /* 竖向滑动选项卡UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "竖向滑动选项卡UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2762F14021903EBF002AE6A6 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		2762F14221903EBF002AE6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2762F14F21903EF3002AE6A6 /* YScrollContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YScrollContentView.h; sourceTree = "<group>"; };
+		2762F15021903EF3002AE6A6 /* YScrollContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YScrollContentView.m; sourceTree = "<group>"; };
+		2762F15121903EF3002AE6A6 /* YSegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSegmentTitleView.h; sourceTree = "<group>"; };
+		2762F15221903EF3002AE6A6 /* YSegmentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSegmentTitleView.m; sourceTree = "<group>"; };
+		2762F15521903F6A002AE6A6 /* YConstMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConstMacro.h; sourceTree = "<group>"; };
+		2762F15C219042F8002AE6A6 /* YVerticalTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVerticalTitleView.h; sourceTree = "<group>"; };
+		2762F15D219042F8002AE6A6 /* YVerticalTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVerticalTitleView.m; sourceTree = "<group>"; };
+		2762F15F219051CE002AE6A6 /* YVerticalContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVerticalContentView.h; sourceTree = "<group>"; };
+		2762F160219051CE002AE6A6 /* YVerticalContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVerticalContentView.m; sourceTree = "<group>"; };
+		2762F162219057BA002AE6A6 /* YWebClassityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWebClassityViewController.h; sourceTree = "<group>"; };
+		2762F163219057BA002AE6A6 /* YWebClassityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWebClassityViewController.m; sourceTree = "<group>"; };
+		27645402219137D600758BEA /* YWebClassityTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWebClassityTableViewCell.h; sourceTree = "<group>"; };
+		27645403219137D600758BEA /* YWebClassityTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWebClassityTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +120,16 @@
 		2762F11B21903EB0002AE6A6 /* 竖向滑动选项卡 */ = {
 			isa = PBXGroup;
 			children = (
+				2762F15521903F6A002AE6A6 /* YConstMacro.h */,
+				2762F15C219042F8002AE6A6 /* YVerticalTitleView.h */,
+				2762F15D219042F8002AE6A6 /* YVerticalTitleView.m */,
+				2762F15F219051CE002AE6A6 /* YVerticalContentView.h */,
+				2762F160219051CE002AE6A6 /* YVerticalContentView.m */,
+				2762F162219057BA002AE6A6 /* YWebClassityViewController.h */,
+				2762F163219057BA002AE6A6 /* YWebClassityViewController.m */,
+				27645402219137D600758BEA /* YWebClassityTableViewCell.h */,
+				27645403219137D600758BEA /* YWebClassityTableViewCell.m */,
+				2762F14E21903EF3002AE6A6 /* 滑动选项卡 */,
 				2762F11C21903EB0002AE6A6 /* AppDelegate.h */,
 				2762F11D21903EB0002AE6A6 /* AppDelegate.m */,
 				2762F11F21903EB0002AE6A6 /* ViewController.h */,
@@ -130,6 +159,17 @@
 				2762F14221903EBF002AE6A6 /* Info.plist */,
 			);
 			path = "竖向滑动选项卡UITests";
+			sourceTree = "<group>";
+		};
+		2762F14E21903EF3002AE6A6 /* 滑动选项卡 */ = {
+			isa = PBXGroup;
+			children = (
+				2762F14F21903EF3002AE6A6 /* YScrollContentView.h */,
+				2762F15021903EF3002AE6A6 /* YScrollContentView.m */,
+				2762F15121903EF3002AE6A6 /* YSegmentTitleView.h */,
+				2762F15221903EF3002AE6A6 /* YSegmentTitleView.m */,
+			);
+			path = "滑动选项卡";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2762F12121903EB0002AE6A6 /* ViewController.m in Sources */,
+				2762F164219057BA002AE6A6 /* YWebClassityViewController.m in Sources */,
+				2762F15421903EF3002AE6A6 /* YSegmentTitleView.m in Sources */,
+				2762F15321903EF3002AE6A6 /* YScrollContentView.m in Sources */,
 				2762F12C21903EBE002AE6A6 /* main.m in Sources */,
+				27645404219137D600758BEA /* YWebClassityTableViewCell.m in Sources */,
+				2762F15E219042F8002AE6A6 /* YVerticalTitleView.m in Sources */,
+				2762F161219051CE002AE6A6 /* YVerticalContentView.m in Sources */,
 				2762F11E21903EB0002AE6A6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
